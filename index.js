@@ -12,18 +12,19 @@ export {
 
 import {
   AppRegistry,
+  VrButton,
 } from 'react-360';
 
-export default class home_expo extends React.Component {
+export default class home_expo extends Component {
   constructor() {
     super();
     this.state = {
-
-    };
+  
+      };
   }
   render() {
     return (
-        
+      //<VrButton>Click me!</VrButton>
     );
   }
 };
